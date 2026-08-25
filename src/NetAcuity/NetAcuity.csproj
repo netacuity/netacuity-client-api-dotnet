@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net48;net10.0</TargetFrameworks>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>NetAcuity</AssemblyName>
+    <RootNamespace>NetAcuity</RootNamespace>
+    <Version>7.0.0</Version>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <FileVersion>7.0.0.0</FileVersion>
+    <PackageId>DigitalElement.NetAcuity</PackageId>
+    <Title>NetAcuity Client API</Title>
+    <Authors>Digital Envoy</Authors>
+    <Company>Digital Envoy</Company>
+    <Product>NetAcuity</Product>
+    <Copyright>Copyright © Digital Envoy 2026</Copyright>
+    <Description>Client library for querying the NetAcuity IP intelligence server via UDP.</Description>
+    <PackageTags>netacuity;ip-intelligence;geolocation;digitalelement</PackageTags>
+    <PackageProjectUrl>https://github.com/netacuity/netacuity-client-api-dotnet</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>NetAcuityAPI.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+</Project>

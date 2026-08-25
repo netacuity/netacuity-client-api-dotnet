@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/examples/">
+    <Project Path="examples/XmlQuery/XmlQuery.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/NetAcuity/NetAcuity.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/NetAcuityAPI.Tests/NetAcuityAPI.Tests.csproj" />
+  </Folder>
+</Solution>
